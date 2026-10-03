@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Developer Portfolio">
+  <title>Coded Future | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-loader"><span></span></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">&lt;Coded<span>Future</span>/&gt;</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <button class="close-menu" id="closeMenu" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span></span> Hello, I'm a Frontend Developer</p>
+          <h1>I build <span>modern</span><br>web experiences.</h1>
+          <p class="hero-text">I create responsive, user-friendly websites with clean code, thoughtful interfaces, and smooth interactions.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn secondary">Let's Talk</a>
+          </div>
+          <div class="socials">
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-card-wrap reveal">
+          <div class="glow"></div>
+          <div class="code-card">
+            <div class="code-top"><span></span><span></span><span></span></div>
+            <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Coded Future"</span>,
+  role: <span class="green">"Frontend Developer"</span>,
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>,
+    <span class="green">"React"</span>
+  ],
+  passion: <span class="green">"Great UI"</span>
+};</code></pre>
+          </div>
+          <div class="floating-badge badge-one"><i class="fa-solid fa-code"></i> Clean Code</div>
+          <div class="floating-badge badge-two"><i class="fa-solid fa-mobile-screen"></i> Responsive</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>4+</strong><span>Years Experience</span></div>
+        <div><strong>38+</strong><span>Projects Completed</span></div>
+        <div><strong>32</strong><span>Happy Clients</span></div>
+        <div><strong>100%</strong><span>Passion for Code</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Turning ideas into <span>digital experiences.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="visual-box"><i class="fa-solid fa-laptop-code"></i><span>Frontend</span></div>
+            <div class="mini-card"><strong>4+</strong><small>Years coding</small></div>
+          </div>
+          <div class="about-content reveal">
+            <h3>Frontend Developer & YouTuber</h3>
+            <p>I'm passionate about creating modern, responsive, and user-friendly websites. I enjoy turning designs and ideas into fast, accessible interfaces that work beautifully across devices.</p>
+            <p>Alongside development, I share coding tutorials, practical projects, and web development tips to help other developers learn and build.</p>
+            <div class="about-points">
+              <div><i class="fa-solid fa-circle-check"></i><span>Clean & maintainable code</span></div>
+              <div><i class="fa-solid fa-circle-check"></i><span>Mobile-first responsive design</span></div>
+              <div><i class="fa-solid fa-circle-check"></i><span>Modern UI & smooth interactions</span></div>
+              <div><i class="fa-solid fa-circle-check"></i><span>Performance-focused development</span></div>
+            </div>
+            <a href="#contact" class="btn primary">Work With Me <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>Tools I use to <span>build.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><i class="fa-brands fa-html5"></i><h3>HTML5</h3><p>Semantic structure</p></div>
+          <div class="skill-card reveal"><i class="fa-brands fa-css3-alt"></i><h3>CSS3</h3><p>Modern responsive UI</p></div>
+          <div class="skill-card reveal"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interactive experiences</p></div>
+          <div class="skill-card reveal"><i class="fa-brands fa-react"></i><h3>React</h3><p>Component-based UI</p></div>
+          <div class="skill-card reveal"><i class="fa-brands fa-bootstrap"></i><h3>Bootstrap</h3><p>Fast responsive layouts</p></div>
+          <div class="skill-card reveal"><i class="fa-brands fa-github"></i><h3>Git & GitHub</h3><p>Version control</p></div>
+          <div class="skill-card reveal"><i class="fa-solid fa-cart-shopping"></i><h3>Shopify</h3><p>Theme development</p></div>
+          <div class="skill-card reveal"><i class="fa-solid fa-mobile-screen-button"></i><h3>Responsive Design</h3><p>All screen sizes</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">FEATURED WORK</p>
+          <h2>Projects I've <span>built.</span></h2>
+        </div>
+        <div class="filter-buttons reveal">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web Design</button>
+          <button class="filter" data-filter="shopify">Shopify</button>
+          <button class="filter" data-filter="js">JavaScript</button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="web">
+            <div class="project-image project-one"><span>Restaurant UI</span></div>
+            <div class="project-info"><p>WEB DESIGN</p><h3>Savoria Restaurant</h3><span>HTML • CSS • JavaScript</span></div>
+          </article>
+          <article class="project-card reveal" data-category="shopify">
+            <div class="project-image project-two"><span>LUMINA</span></div>
+            <div class="project-info"><p>SHOPIFY</p><h3>Fashion Store</h3><span>Liquid • CSS • JavaScript</span></div>
+          </article>
+          <article class="project-card reveal" data-category="js">
+            <div class="project-image project-three"><span>Dashboard</span></div>
+            <div class="project-info"><p>JAVASCRIPT</p><h3>Task Dashboard</h3><span>HTML • CSS • JavaScript</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">WHAT I DO</p>
+          <h2>Services built around <span>your goals.</span></h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal"><i class="fa-solid fa-laptop-code"></i><h3>Frontend Development</h3><p>Modern, scalable interfaces built with clean HTML, CSS, JavaScript, and React.</p></div>
+          <div class="service-card reveal"><i class="fa-solid fa-pen-ruler"></i><h3>Responsive Web Design</h3><p>Pixel-conscious layouts that feel great on desktop, tablet, and mobile devices.</p></div>
+          <div class="service-card reveal"><i class="fa-solid fa-store"></i><h3>Shopify Theme Development</h3><p>Custom storefront experiences using Shopify Liquid, CSS, and JavaScript.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project in mind?</h2>
+          <p>Let's build something clean, useful, and memorable together.</p>
+        </div>
+        <a class="btn primary" href="mailto:hello@example.com">Get In Touch <i class="fa-solid fa-paper-plane"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <a href="#home" class="logo">&lt;Coded<span>Future</span>/&gt;</a>
+      <p>© <span id="year"></span> Coded Future. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
